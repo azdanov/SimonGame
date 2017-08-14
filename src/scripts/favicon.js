@@ -1,0 +1,9 @@
+export default function favicon () {
+  const favIcon = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfMAAAHABAMAAABEz5x7AAAAElBMVEUAAAD///8AougisUztHCT/yQ4lSIaZAAAAAnRSTlMAAHaTzTgAAAG4SURBVHja7c9BDYAwAASwEcJ/QwHBAcECFvBvhRcSLmGsddBSAAAAAAAAAALmM+Zoryumqqurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq3+1PrWuqaurq6urq6urq6urq6urq6urd1tf7hR19VHr656yqaurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq49Sz6kFAAAAAAAAAAAAAAD+5gHtTDAh8U6tWQAAAABJRU5ErkJggg=='
+
+  const docHead = document.getElementsByTagName('head')[0]
+  const newLink = document.createElement('link')
+  newLink.rel = 'shortcut icon'
+  newLink.href = favIcon
+  docHead.appendChild(newLink)
+}
