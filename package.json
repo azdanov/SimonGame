@@ -1,6 +1,6 @@
 {
   "name": "simongame",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A game for FreeCodeCamp.",
   "main": "index.html",
   "author": "Anton Zdanov <akumael@gmail.com>",

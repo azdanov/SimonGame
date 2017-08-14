@@ -1,4 +1,5 @@
 import {playSound, stopSound} from './sounds'
+import favicon from './favicon'
 import game from './game'
 
 export const $pads = document.querySelectorAll('.pad')
@@ -7,6 +8,8 @@ const $restart = document.querySelector('#restart')
 const $navigation = document.querySelector('#navigation')
 const $navigationDisplay = document.querySelector('#navigation + label')
 const $strict = document.querySelector('#strict')
+
+favicon()
 
 $info.addEventListener('click', function activatePads () {
   $info.removeEventListener('click', activatePads, false)
